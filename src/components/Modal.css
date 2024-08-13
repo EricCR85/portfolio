@@ -22,7 +22,7 @@ nav, .scroll, .landing__content {
     transform: translate(-50%, -50%);
     width: 90%;
     max-width: 1100px;
-    max-height: 620px;
+    max-height: 700px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
@@ -318,6 +318,12 @@ textarea {
     .dark-theme .modal__exit--about {
         color: white;
         background-color: #242424;
+    }
+}
+
+@media (max-width: 1400px) {
+    .modal {
+        max-height: 580px;
     }
 }
 
