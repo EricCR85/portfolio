@@ -22,7 +22,7 @@ nav, .scroll, .landing__content {
     transform: translate(-50%, -50%);
     width: 90%;
     max-width: 1100px;
-    height: 700px;
+    max-height: 620px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
