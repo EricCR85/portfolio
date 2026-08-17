@@ -36,7 +36,7 @@ function Landing() {
         "service_el86y8s",
         "template_xzra4hd",
         event.target,
-        "Tm6Iprbt_C_bjR5MN"
+        "Tm6Iprbt_C_bjR5MN",
       )
       .then(() => {
         loading.classList.remove("modal__overlay--visible");
@@ -45,7 +45,7 @@ function Landing() {
       .catch(() => {
         loading.classList.remove("modal__overlay--visible");
         alert(
-          "The email service is temporarily unavailable. Please contact me directly at dvdhyelee@gmail.com"
+          "The email service is temporarily unavailable. Please contact me directly at ecr.ceo@gmail.com",
         );
       });
   }
@@ -108,7 +108,7 @@ function Landing() {
           <div className="landing__content--text">
             <h1 className="landing__content--title">
               Hey <br></br>
-              <span className="text--blue">I'm David.</span>
+              <span className="text--blue">I'm Eric.</span>
             </h1>
             <p className="landing__content--description">
               I'm a <b className="text--blue">frontend software engineer</b> who
@@ -127,7 +127,7 @@ function Landing() {
             <ul className="landing__content--links">
               <li>
                 <a
-                  href="https://www.linkedin.com/in/dvdhyelee/"
+                  href=""
                   rel="noreferrer"
                   target="_blank"
                   className="landing__content--link"
@@ -138,7 +138,7 @@ function Landing() {
               </li>
               <li>
                 <a
-                  href="https://github.com/DvdHLee"
+                  href="https://github.com/EricCR85"
                   rel="noreferrer"
                   target="_blank"
                   className="landing__content--link"
