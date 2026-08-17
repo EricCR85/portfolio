@@ -25,7 +25,7 @@ function Footer() {
                     <a href="assets/resume.pdf" target="_blank">Resume</a>
                 </li>
             </ul>
-            <p className="copyright">Copyright © 2024 David Hyesung Lee</p>
+            <p className="copyright">Copyright © 2026 Eric Reeves</p>
         </div>
     </footer>
   )

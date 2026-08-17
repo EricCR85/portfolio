@@ -22,8 +22,8 @@ function Projects() {
                   Next.js, Tailwind CSS, OpenAI, Vision API
                 </h4>
                 <p className="project__description__para">
-                  An AI-driven intervierw preparation simulator built with
-                  dynamic interactive user flows, performace logging metrics,
+                  An AI-driven interview preparation simulator built with
+                  dynamic interactive user flows, performance logging metrics,
                   and simulated database authentication logic.
                 </p>
                 <div className="project__description__links">

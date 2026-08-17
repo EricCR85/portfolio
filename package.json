@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://dvdhlee.github.io/Portfolio",
+  "homepage": "https://ericcr85.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
