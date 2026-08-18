@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="footer__content">
         <div className="footer__logocontainer">
-          <a href="#" className="footer__anchor">
+          <a href="/" className="footer__anchor">
             <img
               src={`${process.env.PUBLIC_URL}/assets/footerlogo.png`}
               className="footer__logo"
