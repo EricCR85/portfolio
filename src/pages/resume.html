@@ -36,6 +36,9 @@
         color: #0056b3;
         text-decoration: none;
       }
+      .contact a:hover {
+        text-decoration: underline;
+      }
       hr {
         border: none;
         border-top: 1px solid #ccc;
@@ -56,15 +59,15 @@
       li {
         margin-bottom: 3px;
       }
-      .job-title {
-        font-weight: bold;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 8px;
-      }
+      .job-title,
       .project-title {
         font-weight: bold;
         margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .project-title {
+        display: block;
       }
       .project-title a {
         color: #0056b3;
@@ -84,6 +87,7 @@
     <div class="subtitle">
       Frontend Developer | React &amp; TypeScript Specialist
     </div>
+
     <div class="contact">
       Location: United States | Email:
       <a href="mailto:ecr.ceo@gmail.com">ecr.ceo@gmail.com</a> | Phone:
@@ -128,11 +132,30 @@
     <h2>Professional Experience</h2>
 
     <div class="job-title">
+      <span>Frontend Engineer | Skinstric AI (Remote)</span>
+      <span>Sep 2025 – Present</span>
+    </div>
+    <ul>
+      <li>
+        Built dynamic, interactive user interfaces using Next.js and TailwindCSS
+        integrated with OpenAI Vision API endpoints.
+      </li>
+      <li>
+        Optimized page rendering and client-side performance using Next.js
+        Server Components, improving overall page load times.
+      </li>
+      <li>
+        Collaborated with team members to build, test, and ship clean,
+        component-based code adhering to modern web performance standards.
+      </li>
+    </ul>
+
+    <div class="job-title">
       <span
-        >Frontend Developer &amp; Support Staff | Frontend Simplified
+        >Frontend Developer &amp; Technical Support | Frontend Simplified
         (Remote)</span
       >
-      <span>Jan 2024 – Present</span>
+      <span>Jan 2026 – Present</span>
     </div>
     <ul>
       <li>
@@ -150,22 +173,28 @@
       </li>
     </ul>
 
-    <div class="job-title">
-      <span>Frontend Engineer | Skinstric AI (Remote)</span>
-      <span>Sep 2024 – Present</span>
+    <h2>Featured Projects</h2>
+
+    <div class="project-title">
+      Skintrics – AI Skincare Application [<a
+        href="https://github.com/EricCR85"
+        target="_blank"
+        rel="noopener"
+        >GitHub</a
+      >] [<a href="https://skintrics.com" target="_blank" rel="noopener"
+        >Live Demo</a
+      >]
     </div>
     <ul>
       <li>
-        Developed dynamic, interactive user interfaces using Next.js and
-        TailwindCSS integrated with OpenAI Vision API endpoints.
+        Engineered a responsive web application leveraging Next.js and
+        TailwindCSS to deliver real-time AI-powered skincare analysis.
       </li>
       <li>
-        Optimized page rendering and animation workflows using Next.js Server
-        Components, improving overall page load performance and UI fluidity.
+        Integrated RESTful API endpoints and optimized state management to
+        handle interactive user inputs smoothly.
       </li>
     </ul>
-
-    <h2>Projects</h2>
 
     <div class="project-title">
       Prep AI – Interview Preparation Platform [<a
@@ -174,7 +203,7 @@
         rel="noopener"
         >GitHub</a
       >] [<a
-        href="https://prep-ai-olive.vercel.app"
+        href="https://prep-ai-olive.vercel.app/"
         target="_blank"
         rel="noopener"
         >Live Demo</a
@@ -182,8 +211,12 @@
     </div>
     <ul>
       <li>
-        Built an AI-driven interview preparation tool featuring dynamic
-        interactive user flows and simulated database/authentication logic.
+        Engineered an AI-driven interview preparation web app using Next.js,
+        TypeScript, and TailwindCSS to process dynamic user preparation flows.
+      </li>
+      <li>
+        Integrated authentication and state logic for persistent user sessions
+        using Supabase/Firebase.
       </li>
     </ul>
 
@@ -202,28 +235,8 @@
     </div>
     <ul>
       <li>
-        Developed a real-time cryptocurrency tracking dashboard with interactive
-        watchlists and live market charts.
-      </li>
-    </ul>
-
-    <div class="project-title">
-      SaaS Analytics Dashboard [<a
-        href="https://github.com/EricCR85/saas-analytics-dashboard"
-        target="_blank"
-        rel="noopener"
-        >GitHub</a
-      >] [<a
-        href="https://saa-s-analytics-dashboard-lake.vercel.app"
-        target="_blank"
-        rel="noopener"
-        >Live Demo</a
-      >]
-    </div>
-    <ul>
-      <li>
-        Designed and deployed a functional TailwindCSS v4 dashboard with local
-        storage persistence and dynamic chart visualizations.
+        Built a real-time cryptocurrency tracking dashboard featuring
+        interactive watchlists and live market charts using React and REST APIs.
       </li>
     </ul>
 
@@ -234,7 +247,7 @@
         rel="noopener"
         >GitHub</a
       >] [<a
-        href="https://summarist-tan.vercel.app"
+        href="https://summarist-tan.vercel.app/"
         target="_blank"
         rel="noopener"
         >Live Demo</a
@@ -242,15 +255,23 @@
     </div>
     <ul>
       <li>
-        Engineered a responsive Next.js and TypeScript web app featuring dynamic
-        routing and optimized state management.
+        Built a Next.js and TypeScript single-page application incorporating
+        dynamic client-side routing and optimized state management.
       </li>
     </ul>
 
-    <h2>Education</h2>
+    <h2>Education &amp; Training</h2>
     <div class="job-title">
       <span>Full Stack Engineering Certificate | Frontend Simplified</span>
-      <span>Jun 2023 – Jan 2024</span>
+      <span>Aug 2025 – Dec 2025</span>
     </div>
+    <ul>
+      <li>
+        Intensive program covering modern frontend architecture, state
+        management patterns, and production-ready React/TypeScript workflows.
+      </li>
+    </ul>
   </body>
 </html>
+
+
