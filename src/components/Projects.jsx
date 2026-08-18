@@ -118,7 +118,7 @@ function Projects() {
                 <div className="project__description__links">
                   <div className="project__description__link">
                     <a
-                      href="https://github.com/EricCR85/Crytopulse-dashboard.git"
+                      href="https://github.com/EricCR85/CrytoPulse-dashboard.git"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -188,5 +188,3 @@ function Projects() {
 }
 
 export default Projects;
-
-
