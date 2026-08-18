@@ -39,7 +39,7 @@ function Footer() {
           </li>
           <li className="footer__social-link">
             <a
-              href={`${process.env.PUBLIC_URL}/resume.pdf`}
+              href={`${process.env.PUBLIC_URL}/resume.html`}
               target="_blank"
               rel="noreferrer"
             >
