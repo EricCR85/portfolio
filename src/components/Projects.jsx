@@ -32,7 +32,7 @@ function Projects() {
                 <div className="project__description__links">
                   <div className="project__description__link">
                     <a
-                      href="https://github.com/EricCR85/skintrics-project"
+                      href="https://github.com/EricCR85/skintics-project"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -41,7 +41,7 @@ function Projects() {
                   </div>
                   <div className="project__description__link">
                     <a
-                      href="https://skintrics-project.vercel.app"
+                      href="https://skintics-project.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
