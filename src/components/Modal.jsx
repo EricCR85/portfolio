@@ -14,8 +14,8 @@ function Modal({ contact, closeModal }) {
             with a strong passion for developing websites with great user
             experiences.
             <br></br> I have a varied background with experience in engineering,
-            trading, Hospitality and more! I currently live in Raleigh North Carolina,
-            but I am always open to new experiences!
+            trading, Hospitality and more! I currently live in Raleigh North
+            Carolina, but I am always open to new experiences!
           </p>
           <div className="languages" id="languages">
             <div className="language__list">
@@ -150,13 +150,13 @@ function Modal({ contact, closeModal }) {
           <h2 className="modal__title">Here's a bit about me.</h2>
           <h2 className="modal__subtitle">Frontend Software Engineer</h2>
           <p className="modal__description">
-            I'm a 27 year-old{" "}
+            I'm a 40 year-old{" "}
             <b className="text--orange">frontend software engineer</b>
             with a strong passion for developing websites with great user
             experiences.
             <br></br> I have a varied background with experience in engineering,
-            trading, teaching, and more! I currently live in Phoenix, Arizona,
-            but I am always open to new experiences!
+            trading, Hospitality and more! I currently live in Raleigh North
+            Carolina, but I am always open to new experiences!
           </p>
           <div className="languages" id="languages">
             <div className="language__list">
