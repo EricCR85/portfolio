@@ -127,7 +127,7 @@ function Landing() {
             <ul className="landing__content--links">
               <li>
                 <a
-                  href="www.linkedin.com/in/eric-reeves-36ab5514b"
+                  href="www.linkedin.com/in/ericreeves"
                   rel="noreferrer"
                   target="_blank"
                   className="landing__content--link"
@@ -149,7 +149,7 @@ function Landing() {
               </li>
               <li>
                 <a
-                  href="assets/resume.pdf"
+                  href="/resume.html"
                   target="_blank"
                   className="landing__content--link"
                   id="link3"
